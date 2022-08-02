@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<body>
+<link rel="stylesheet" href="FormProject.css">
+
+<h1 id="title"> Survey Form </h1>
+<p id="description"> This is a survey form that I created as part of the Responsive Web Design Certification from FreeCodeCamp. </p>
+<form id="survey-form">
+<fieldset class="survey">
+<label id="name-label">Name: </label>
+<input type="text" id="name" class="textinput" name="name"  placeholder="Enter your full name"  required/><br>
+<label id="email-label">Email:</label>
+
+<input type="email" class="textinput" 
+id ="email" name="email"  placeholder="Enter your email" required/>
+
+<label id="number-label">Age: </label>
+
+<input type="number" id="number" class="textinput" min="12" max="120" placeholder="Age?"><br><br>
+
+What is your working status: <br>
+<select id="dropdown" class="textinput">
+<option value="">(Select One) </option>
+<option value="Working"> Working </option>
+<option value="Non-Working"> Non-Working </option> 
+</select>
+<br><br>
+
+Do you have a computer science background:<br>
+<label><input type="radio" name="code" value="1">Yes<label>
+<label><input type="radio" name="code" value="2">No<label>
+
+<br>
+Which field do you want to work in once you learn to code:<br>
+
+<label><input type="checkbox" value="WD">Web Development</label>
+<label><input type="checkbox" value="FED">Front End Development</label>
+<label><input type="checkbox" value="BED">Backend Development</label>
+<label><input type="checkbox" value="DS">Data Science</label>
+<label><input type="checkbox" value="ML">Machine Learning</label>
+
+<br>
+<label>Comments:
+<textarea rows="10" cols="300" placeholder="Additional Comments..."></textarea></label>
+<input type="submit" id="submit" value="Submit"/>
+</fieldset>
+</form>
+</body> 
+</html>

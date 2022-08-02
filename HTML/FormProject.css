@@ -1,0 +1,55 @@
+h1,p
+{
+font-family:Tahoma;
+text-align:center;
+}
+
+body
+{
+  background-color: cornflowerblue;
+  
+}
+
+form{
+  background-color:blueviolet;
+  
+}
+
+fieldset
+{
+  color:white;
+}
+
+label
+{
+  display:block;
+  margin:0.5rem 0;
+}
+
+body
+{
+font-family:Tahoma;
+}
+
+.data
+{
+  width:100%
+}
+
+textarea
+{
+  width:100%;
+}
+
+.textinput
+{
+  width:100%;
+}
+
+input[type="submit"] {
+  display: block;
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    
+}

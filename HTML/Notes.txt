@@ -1,0 +1,9 @@
+CSS UNITS:
+->em is used when you want your font size to be sized according to parent, rem is used when you have to size elements according to HTML
+->vh=viewport height, jitni screen nazar aarahi ha uss ki saari height occupy karlay ga
+->vw=viewport width, jitni screen ki width nazar aarahi ha saari occupy karlay ga
+
+->Media queries,position and css flexbox
+
+CSS Box Model:
+->consists of element, padding, border, margin
